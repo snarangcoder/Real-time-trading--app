@@ -6,7 +6,7 @@ import time
 st.set_page_config(page_title="Live Trading Assistant", layout="wide")
 
 TICKERS = ["AAPL", "GOOG", "NVDA", "AVGO"]
-API_KEY = st.secrets["ALPACA_API_KEY"]
+API_KEY = st.secrets["AKOWPODIVKZQAOHL57L4"]
 BASE_URL = "https://data.alpaca.markets/v2/stocks"
 
 def fetch_price(ticker):
