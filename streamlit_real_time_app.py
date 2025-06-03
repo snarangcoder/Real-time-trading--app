@@ -1,4 +1,5 @@
 
+
 import streamlit as st
 import requests
 import time
@@ -6,7 +7,7 @@ import time
 st.set_page_config(page_title="Live Trading Assistant", layout="wide")
 
 TICKERS = ["AAPL", "GOOG", "NVDA", "AVGO"]
-API_KEY = st.secrets["AKOWPODIVKZQAOHL57L4"]
+API_KEY = st.secrets["ALPACA_API_KEY"]
 BASE_URL = "https://data.alpaca.markets/v2/stocks"
 
 def fetch_price(ticker):
